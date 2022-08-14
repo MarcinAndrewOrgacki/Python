@@ -1,5 +1,5 @@
 def sentence_maker(phrase):
-  interrogatives = ("how", "what", "why")# words that form a question
+  interrogatives = ("how", "what", "why", "are")# words that form a question
   capitals = phrase.capitalize()# capitalizes the first letter of the input
   if phrase.startswith(interrogatives): # checks if input starts with an interrogative
     return "{}?".format(capitals)# returns the input capitalized and adds a question mark
